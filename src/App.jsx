@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { Waves, TrendingUp, Clipboard, Grid3x3 } from 'lucide-react';
+import { Waves, TrendingUp, Clipboard, LayoutGrid } from 'lucide-react';
 
 // ポイント定義（実測水深データ + 気象庁地点コード）
 const SURF_SPOTS = [
