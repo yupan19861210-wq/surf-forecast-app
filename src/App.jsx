@@ -440,7 +440,7 @@ const SurfForecastApp = () => {
             { id: 'forecast', icon: Waves, label: '予報' },
             { id: 'analysis', icon: TrendingUp, label: '解析' },
             { id: 'log', icon: Clipboard, label: '実績' },
-            { id: 'board', icon: Grid3x3, label: 'ボード' }
+            { id: 'board', icon: LayoutGrid, label: 'ボード' }
           ].map(tab => (
             <button
               key={tab.id}
